@@ -1,0 +1,106 @@
+body {
+    width: 100%;
+    height: 100vh;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 16px;
+    margin: 0;
+    background-color: #1b1b32;
+    color: white
+    /* overflow: hidden; Hide scroll bar */
+}
+
+/* 
+.background {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-image: url('static/realcommitmentLogo.png');
+    background-size: cover;
+    background-position: center;
+    filter: blur(25px);
+    z-index: -1;
+  } */
+
+h1 {
+    margin-bottom: 0px;
+}
+
+h1, p {
+    text-align: center;
+}
+
+.welcome { 
+    margin-top: 2px;
+}
+
+.description {
+    width: 60vw;
+    margin: 0px auto;
+    max-width: 700px;
+    min-width: 400px;
+    padding: 20px 70px 30px;
+}
+
+
+
+form {
+    width: 60vw;
+    min-width: 300px;
+    max-width: 500px;
+    margin: 0 auto;
+    padding-bottom: 15px
+}
+
+fieldset {
+    padding: 0px 5px 15px 0px;
+    border: none;
+    border-bottom: 3px solid #3b3b4f;
+}
+
+fieldset:last-of-type {
+    border: none;
+}
+
+label, legend {
+    font-weight: bold;
+}
+
+input, select, textarea {
+    min-height: 2em;
+    margin: 10px 0px;
+    width: 100%;
+}
+
+.account-type {
+    padding-top: 20px;
+}
+
+.account-type input, input[type="checkbox"] {
+    width: unset;
+    vertical-align: middle;
+    width: 15px;
+}
+
+.account-type label {
+    display: block;
+    font-weight: unset;
+}
+
+input[type="file"] {
+    background-color: white;
+    color: black;
+}
+
+input[type="submit"] {
+    background-color: rgb(0, 130, 255);
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+
+.last-field {
+    padding-top: 20px;
+}
+
+a {
+    color: blue;
+}
