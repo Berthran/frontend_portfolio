@@ -1,0 +1,67 @@
+body, html {
+    height: 100%;
+    margin: 0px;
+    border: solid #33326c;;
+
+}
+
+body {
+    border: solid #33326c;
+}
+
+.frame {
+
+    display: flex;
+    justify-content: center; /* Horizontal center */
+    align-items: center; /* vertical center */
+    height: 100vh; /* full viewport height */
+    background-color: white
+  
+
+    
+    
+}
+
+.canvas {
+    width: 500px;
+    height: 600px;
+    background-color: #2d2d6e;
+    padding: 20px 20px 33px;
+    filter: blur(2px);
+    
+}
+
+.one {
+    width: 495px;
+    height: 40%;
+    background-color: #390c13;
+    margin: 0 auto 8px;
+    border-radius: 10px;
+    
+}
+
+.two {
+    width: 500px;
+    height: 25%;
+    background-color: #3d5ab9;
+    margin: 0 auto 5px;
+    transform: rotate(0.2deg);
+    border-radius: 10px 5px 15px 20px;
+
+}
+
+.three {
+    width: 480px;
+    height: 35%;
+    background-color: #362f50;
+    margin: 0px auto;
+
+}
+
+.one, .two {
+    filter: blur(3px)
+}
+
+.three {
+    filter: blur(1px)
+}
